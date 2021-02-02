@@ -8,7 +8,6 @@ class MP3Importer
   
   def files
     filename = Dir.children(@path)
-    puts filename
     filename = Dir.glob("*.mP3")
     puts filename
     puts "This is the start "
