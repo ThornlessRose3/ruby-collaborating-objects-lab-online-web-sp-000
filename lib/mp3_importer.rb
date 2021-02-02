@@ -10,7 +10,6 @@ class MP3Importer
     Dir.chrdir(@path)
     filename = Dir.glob("*.mP3")
     puts filename
-    puts "This is the start "
     # edit_names = filename.each{ |file| file.chomp(".mp3")}
     # puts edit_names
     filename
