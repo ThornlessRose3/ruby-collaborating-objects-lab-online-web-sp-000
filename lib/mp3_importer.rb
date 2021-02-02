@@ -12,7 +12,7 @@ class MP3Importer
     puts filename
     puts "This is the start "
     # edit_names = filename.each{ |file| file.chomp(".mp3")}
-    puts edit_names
+    # puts edit_names
     filename
   end
   
