@@ -11,7 +11,7 @@ class MP3Importer
     filename = Dir.glob("*.mP3")
     puts filename
     puts "This is the start "
-    filename.each{ |file| puts "#{file}"
+    filename.each{ |file| puts "#{file}"}
     filename
   end
   
