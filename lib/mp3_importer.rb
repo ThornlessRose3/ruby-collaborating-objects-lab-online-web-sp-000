@@ -8,7 +8,7 @@ class MP3Importer
   
   def files
     filename = Dir.children(@path)
-    filename = Dir.glob("*.mP3")
+    # filename = Dir.glob("*.mP3")
     puts filename
     # edit_names = filename.each{ |file| file.chomp(".mp3")}
     # puts edit_names
